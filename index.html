@@ -1,4 +1,3 @@
-<!--Schedule with Headway, Schedule with Grow Thearapy, Flip head, Insurance between the Our Services and Contact Us-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,6 +28,7 @@
           <ul>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#insurance">Insurance</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -37,63 +37,29 @@
 
     <main>
       <section id="hero">
-        <div class="hero-content">
+        <div class="hero-content container">
           <h2>Your Mental Health Matters</h2>
           <p>Empowering you to achieve emotional wellness and resilience.</p>
-          <div class="insurance-card-container">
-            <div class="insurance-card">
-              <a
-                href="https://headway.co/providers/obianuju-makinde-agu?utm_source=pem&utm_medium=direct_link&utm_campaign=90720"
-                target="_blank"
-                class="cta-button"
-                ><img src="imgs/headway.ico" class="cta-button-logo" />Schedule
-                With Headway</a
-              >
-              <a>Blue Shield of California</a>
-              <a>Magellan</a>
-              <a>Aetna</a>
-              <a>Anthem Blue Cross California </a>
-              <a>Cigna</a>
-              <a>Blue Cross Blue Shield of Massachusetts</a>
-            </div>
 
-            <div class="insurance-card">
-              <a
-                href="https://growtherapy.com/book-appointment?id=39625&utm_source=provider-sourced&utm_medium=booking-link&utm_campaign=provider-dashboard"
-                target="_blank"
-                class="cta-button"
-                ><img
-                  src="imgs/growtherapy.png"
-                  class="cta-button-logo"
-                />Schedule With GrowTherapy</a
-              >
-              <a>Aetna</a>
-              <a>Aetna - Allied Benefits</a>
-              <a>Aetna - Luminare</a>
-              <a>Aetna - Medicare</a>
-              <a>Aetna - Moda</a>
-              <a>Aetna - WebTPA</a>
-              <a>Anthem</a>
-              <a>Blue Cross</a>
-              <a>Carelon Behavioral Health</a>
-              <a>Central CA AH (Medi-Cal)</a>
-              <a>Cigna and Evernorth</a>
-              <a>Gold Coast HP (Medi-Cal)</a>
-              <a>HP San Joaquin (Medi-Cal)</a>
-              <a>Humana - Medicare</a>
-              <a>Humana Dual</a>
-              <a>L.A Care Covered</a>
-              <a>L.A Care Covered Direct</a>
-              <a>L.A Care Health Plan Medi-Cal</a>
-              <a>L.A Care PASC-SEIU</a>
-              <a>L.A. Care Medicare Plus</a>
-              <a>PHP of CA (Medi-Cal)</a>
-              <a>San Francisco HP (Medi-Cal)</a>
-              <a>Santa Clara FHP (Medi-Cal)</a>
-              <a>Tufts Health/Cigna</a>
-              <a>UHC/Optum - Medicare</a>
-            </div>
+          <!-- Visible consultation CTA -->
+          <div class="hero-cta-row">
+            <a
+              href="https://calendly.com/ilera4health/new-meeting"
+              target="_blank"
+              class="cta-button cta-button--accent"
+            >
+              Free 15-Minute Consultation
+            </a>
+            <a href="#insurance" class="cta-button cta-button--ghost">
+              View Insurance & Scheduling
+            </a>
           </div>
+
+          <!-- Small helper text (optional but subtle) -->
+          <p class="hero-note">
+            Prefer to start with a quick conversation? Book a free 15-minute
+            consult.
+          </p>
         </div>
       </section>
 
@@ -132,6 +98,7 @@
                 develop a personalized treatment plan tailored to your specific
                 needs and goals.
               </p>
+
               <!-- Professional verification provided by Psychology Today -->
               <a
                 href="https://www.psychologytoday.com/profile/1410908"
@@ -180,6 +147,127 @@
         </div>
       </section>
 
+      <!-- NEW: Consultation section (simple + visible) -->
+      <section id="consultation">
+        <div class="container">
+          <h2>Free 15-Minute Consultation</h2>
+          <p class="section-subtext">
+            A quick, no-pressure call to answer questions and see if we’re a
+            good fit.
+          </p>
+
+          <!-- IMPORTANT: Replace this href with your actual consultation booking link -->
+          <a
+            href="https://calendly.com/ilera4health/new-meeting"
+            target="_blank"
+            class="cta-button cta-button--accent"
+          >
+            Book Free 15-Minute Consultation
+          </a>
+        </div>
+      </section>
+
+      <!-- MOVED: Insurance & scheduling lives here now -->
+      <section id="insurance">
+        <div class="container">
+          <h2>Insurance & Scheduling</h2>
+          <p class="section-subtext">
+            Choose your preferred platform to schedule. Supported insurance
+            plans are listed under each option.
+          </p>
+
+          <div class="insurance-card-container">
+            <div class="insurance-card">
+              <a
+                href="https://headway.co/providers/obianuju-makinde-agu?utm_source=pem&utm_medium=direct_link&utm_campaign=90720"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-button"
+              >
+                <img
+                  src="imgs/headway.ico"
+                  class="cta-button-logo"
+                  alt="Headway"
+                />
+                Schedule With Headway
+              </a>
+
+              <div class="insurance-list">
+                <p class="insurance-title">Insurance accepted via Headway</p>
+                <ul>
+                  <li>Blue Shield of California</li>
+                  <li>Magellan</li>
+                  <li>Aetna</li>
+                  <li>Anthem Blue Cross California</li>
+                  <li>Cigna</li>
+                  <li>Blue Cross Blue Shield of Massachusetts</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="insurance-card">
+              <a
+                href="https://growtherapy.com/book-appointment?id=39625&utm_source=provider-sourced&utm_medium=booking-link&utm_campaign=provider-dashboard"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-button"
+              >
+                <img
+                  src="imgs/growtherapy.png"
+                  class="cta-button-logo"
+                  alt="GrowTherapy"
+                />
+                Schedule With GrowTherapy
+              </a>
+
+              <div class="insurance-list">
+                <p class="insurance-title">
+                  Insurance accepted via GrowTherapy
+                </p>
+                <ul>
+                  <li>Aetna</li>
+                  <li>Aetna - Allied Benefits</li>
+                  <li>Aetna - Luminare</li>
+                  <li>Aetna - Medicare</li>
+                  <li>Aetna - Moda</li>
+                  <li>Aetna - WebTPA</li>
+                  <li>Anthem</li>
+                  <li>Blue Cross</li>
+                  <li>Carelon Behavioral Health</li>
+                  <li>Central CA AH (Medi-Cal)</li>
+                  <li>Cigna and Evernorth</li>
+                  <li>Gold Coast HP (Medi-Cal)</li>
+                  <li>HP San Joaquin (Medi-Cal)</li>
+                  <li>Humana - Medicare</li>
+                  <li>Humana Dual</li>
+                  <li>L.A Care Covered</li>
+                  <li>L.A Care Covered Direct</li>
+                  <li>L.A Care Health Plan Medi-Cal</li>
+                  <li>L.A Care PASC-SEIU</li>
+                  <li>L.A. Care Medicare Plus</li>
+                  <li>PHP of CA (Medi-Cal)</li>
+                  <li>San Francisco HP (Medi-Cal)</li>
+                  <li>Santa Clara FHP (Medi-Cal)</li>
+                  <li>Tufts Health/Cigna</li>
+                  <li>UHC/Optum - Medicare</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Optional repeat CTA at bottom of section -->
+          <div class="insurance-bottom-cta">
+            <a
+              href="https://calendly.com/ilera4health/new-meeting"
+              target="_blank"
+              class="cta-button cta-button--accent"
+            >
+              Free 15-Minute Consultation
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section id="contact">
         <div class="container">
           <h2>Contact Us</h2>
@@ -202,5 +290,7 @@
         <p>&copy; 2024 IleraHealth. All Rights Reserved.</p>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
